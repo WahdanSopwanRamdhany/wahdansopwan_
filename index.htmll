@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Data Mahasiswa</title>
+</head>
+<body>
+  <h2>Data Mahasiswa</h2>
+  <p id="hasil"></p>
+
+  <script>
+    // Menyimpan data mahasiswa
+    let nama = "Wahdan";
+    let umur = 19;
+    let nilai = 85;
+
+    // Menampilkan hasil
+    document.getElementById("hasil").innerHTML =
+      "Nama: " + nama + "<br>" +
+      "Umur: " + umur + " tahun<br>" +
+      "Nilai: " + nilai;
+  </script>
+</body>
+</html>
